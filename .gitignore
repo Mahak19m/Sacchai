@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Environment variables — NEVER push this
+.env
+
+# Data files (large)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (large — optional)
+model.pkl
+vectorizer.pkl
